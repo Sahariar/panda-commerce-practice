@@ -1,41 +1,292 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Title</title>
+
+<head>
+    <title>Panda : Ecommerce All your needs here</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS v5.2.0-beta1 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-  </head>
-  <body>
-    
+<body>
+    <!-- Start Header Section -->
+    <header class="header-section mb-100">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#shoes-section">Shoes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#backpack-section">Backpack</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Subscribe</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- End  Header Section -->
 
+    <main>
+        <!-- Start Hero Carousel -->
+        <section class="hero-carousel mb-100">
+            <div class="container">
+                <div class="row">
+                    <div id="carouselpandahero" class="carousel slide panda-color border-5 rounded-4"
+                        data-bs-ride="false">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselpandahero" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselpandahero" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselpandahero" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row align-items-center ">
+                                    <div class="col-7">
+                                        <div class="hero-carousel-caption">
+                                            <h1>Mega LCD TV For Sports
 
+                                            </h1>
+                                            <p>This is the best tv in the world for people who just want to waste time
+                                                in front of tv.
+                                            </p>
+                                            <div class="price">
+                                                <h1>
+                                                    $1500
+                                                </h1>
+                                            </div>
+                                            <a class="btn btn-lg btn-hero-buy" href="#" role="button">Buy Now</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-5">
+                                        <img src="images/banner-images/tv.png" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row align-items-center ">
+                                    <div class="col-7">
+                                        <div class="hero-carousel-caption">
+                                            <h1>Cool Dude Headphone
+                                            </h1>
+                                            <p>This is the best headphone in the world for people who just want to waste
+                                                time in front of funky world.
+                                            </p>
+                                            <div class="price">
+                                                <h1>
+                                                    $500
+                                                </h1>
+                                            </div>
+                                            <a class="btn btn-lg btn-hero-buy" href="#" role="button">Buy Now</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-5">
+                                        <img src="images/banner-images/headphone.png" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row align-items-center ">
+                                    <div class="col-7">
+                                        <div class="hero-carousel-caption">
+                                            <h1>X-Box for your living room
 
+                                            </h1>
+                                            <p>This is the best x-box in the world for people who just want to waste
+                                                time in front of fake sports.
+                                            </p>
+                                            <div class="price">
+                                                <h1>
+                                                    $700
+                                                </h1>
+                                            </div>
+                                            <a class="btn btn-lg btn-hero-buy" href="#" role="button">Buy Now</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-5">
+                                        <img src="images/banner-images/xbox.png" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselpandahero"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselpandahero"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <!-- Start Hero Carousel -->
+            <section class="featured-section mb-100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="fea-1 rounded-4 px-5 text-white">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h2 class="h1">Watch</h2>
+                                    <img src="images/categories/watch.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="fea-2 rounded-4 px-5 text-white">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h2 class="h1">Bag</h2>
+                                    <img src="images/categories/bag.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="fea-3 rounded-4 px-5 text-white">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <h2 class="h1">Shoes</h2>
+                                    <img src="images/categories/shoes.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+             <!-- End Hero Carousel -->
+            <!-- shoes section -->
+             <section id="shoes-section" class="mb-100">
+                <div class="container">
+                    <div class="row">
+                        <h1 class="h1">Shoes</h1>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                        <div class="col">
+                          <div class="card h-100 border-0 rounded-4">
+                            <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Supply 350
+                                </h5>
+                              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
+                              <h5>$120</h5>
+                              <a class="btn btn-lg btn-hero-buy" href="#" role="button">Buy Now</a>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100 border-0 rounded-4">
+                            <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Nike 360</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
+                                <h5>$320</h5>
+                                <a class="btn btn-lg btn-hero-buy" href="#" role="button">Buy Now</a>
+  
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100 border-0 rounded-4">
+                            <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Red Airmax</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
+                                <h5>$420</h5>
+                                <a class="btn btn-lg btn-hero-buy" href="#" role="button">Buy Now</a>
+  
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+             </section>
+             <!-- end shoes section -->
+            <!-- Backpack section -->
+            <section id="backpack-section" class="mb-100">
+                <div class="container">
+                    <div class="row">
+                            <h1 class="h1">Backpack</h1>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                                    <div class="col">
+                                      <div class="card h-100 border-0 rounded-4">
+                                        <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Supply 350
+                                            </h5>
+                                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
+                                          <h5>$120</h5>
+                                          <a class="btn btn-lg btn-hero-buy" href="#" role="button">Buy Now</a>
+            
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="card h-100 border-0 rounded-4">
+                                        <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Nike 360</h5>
+                                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
+                                            <h5>$320</h5>
+                                            <a class="btn btn-lg btn-hero-buy" href="#" role="button">Buy Now</a>
+              
+                                          </div>
+                                      </div>
+                                    </div>
+                                    <div class="col">
+                                      <div class="card h-100 border-0 rounded-4">
+                                        <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Red Airmax</h5>
+                                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
+                                            <h5>$420</h5>
+                                            <a class="btn btn-lg btn-hero-buy" href="#" role="button">Buy Now</a>
+              
+                                          </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                         </section>
+                         <!-- end Backpack section -->
+    </main>
 
 
     <!-- Bootstrap JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+    </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous">
+    </script>
+</body>
+
 </html>

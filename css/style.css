@@ -1,0 +1,38 @@
+body{
+
+}
+/* global Css */
+.mb-100{
+    margin-bottom: 100px;
+}
+/* hero section */
+
+.panda-color{
+    background-color: #fceae8;
+}
+.price h1 {
+    color: #FF136F;
+}
+.btn-hero-buy{
+    background-color: #FF136F;
+    color: #fff;
+}
+.hero-carousel-caption {
+    padding-left: 15%;
+}
+/* Featured section */
+.fea-1{
+background-color: orange;
+}
+.fea-2{
+    background-color:orchid;
+}
+.fea-3{
+    background-color:blue;
+}
+
+/* card style */
+
+.card{
+    box-shadow: 5px 5px 10px lightgrey;
+}
