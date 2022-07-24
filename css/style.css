@@ -1,5 +1,5 @@
 body{
-
+margin: 0;
 }
 /* global Css */
 .mb-100{
@@ -36,3 +36,5 @@ background-color: orange;
 .card{
     box-shadow: 5px 5px 10px lightgrey;
 }
+
+/* subscribe section */
