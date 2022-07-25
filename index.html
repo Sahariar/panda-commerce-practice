@@ -16,10 +16,10 @@
 <body>
     <!-- Start Header Section -->
     <header class="header-section mb-100">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <nav class="navbar navbar-expand-lg bg-light">
-                    <div class="container-fluid">
+                <nav class="navbar fixed-top navbar-expand-lg bg-light">
+                    <div class="container">
                         <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
@@ -29,7 +29,7 @@
                         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link active" aria-current="page" href="#hero-carousel">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#shoes-section">Shoes</a>
@@ -38,7 +38,7 @@
                                     <a class="nav-link" href="#backpack-section">Backpack</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Subscribe</a>
+                                    <a class="nav-link" href="#subscribe-section">Subscribe</a>
                                 </li>
                             </ul>
                         </div>
@@ -51,10 +51,10 @@
 
     <main>
         <!-- Start Hero Carousel -->
-        <section class="hero-carousel mb-100">
+        <section class="hero-carousel mb-100" id="hero-carousel">
             <div class="container">
                 <div class="row">
-                    <div id="carouselpandahero" class="carousel slide panda-color border-5 rounded-4"
+                    <div id="carouselpandahero" class="carousel slide  border-5 rounded-4 p-5"
                         data-bs-ride="false">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselpandahero" data-bs-slide-to="0"
@@ -65,8 +65,8 @@
                                 aria-label="Slide 3"></button>
                         </div>
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="row align-items-center ">
+                            <div class="carousel-item panda-color active">
+                                <div class="row row-cols-md-1 row-cols-lg-2 align-items-center flex-md-column-reverse flex-lg-row">
                                     <div class="col-7">
                                         <div class="hero-carousel-caption">
                                             <h1>Mega LCD TV For Sports
@@ -88,8 +88,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <div class="row align-items-center ">
+                            <div class="carousel-item bg-info">
+                                <div class="row row-cols-md-1 row-cols-lg-2 align-items-center flex-md-column-reverse flex-lg-row">
                                     <div class="col-7">
                                         <div class="hero-carousel-caption">
                                             <h1>Cool Dude Headphone
@@ -110,8 +110,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <div class="row align-items-center ">
+                            <div class="carousel-item panda-color">
+                                <div class="row row-cols-md-1 row-cols-lg-2 align-items-center flex-md-column-reverse flex-lg-row">
                                     <div class="col-7">
                                         <div class="hero-carousel-caption">
                                             <h1>X-Box for your living room
@@ -148,11 +148,12 @@
                 </div>
             </div>
         </section>
-            <!-- Start Hero Carousel -->
+            <!-- end Hero Carousel -->
+            <!-- start featured Section -->
             <section class="featured-section mb-100">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4">
+                        <div class="col-4">
                             <div class="fea-1 rounded-4 px-5 text-white">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <h2 class="h1">Watch</h2>
@@ -160,7 +161,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-4">
                             <div class="fea-2 rounded-4 px-5 text-white">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <h2 class="h1">Bag</h2>
@@ -168,7 +169,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-4">
                             <div class="fea-3 rounded-4 px-5 text-white">
                                 <div class="d-flex justify-content-between align-items-center">
                                     <h2 class="h1">Shoes</h2>
@@ -179,7 +180,7 @@
                     </div>
                 </div>
             </section>
-             <!-- End Hero Carousel -->
+            <!-- end featured Section -->
             <!-- shoes section -->
              <section id="shoes-section" class="mb-100">
                 <div class="container">
@@ -277,7 +278,7 @@
                          </section>
                          <!-- end Backpack section -->
 
-                        <section id="subscribe" class="subs-section mb-100">
+                        <section id="subscribe-section" class="subs-section mb-100">
                             <div class="container panda-color py-5">
                                 <div class="row text-center">
                                     <h2>LET'S STAY IN TOUCH</h2>
@@ -304,7 +305,7 @@
     <footer>
         <div class="container">
             <div class="row text-center">
-                    <p>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</p>
+                    <p>©2022. Panda Commerce. All rights reserved. Sofia, Bulgaria.</p>
             </div>
         </div>
     </footer>
